@@ -1,0 +1,50 @@
+#ourServices {
+  background-color: #f0efea;
+}
+
+.ourServiesText {
+  color: #fb6942;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.ourServicesHeading {
+  font-size: 2.7rem;
+  margin-bottom: 2.5rem;
+  width: 50%;
+}
+
+/* CSS for Our Services Cards */
+.card {
+  padding: 20px 20px;
+  width: 100%;
+}
+
+.heading {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+@media (max-width: 991px) {
+  .ourServiesText {
+    font-size: 1rem;
+  }
+
+  .ourServicesHeading {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .ourServiesText {
+    font-size: 1.2rem;
+  }
+
+  .ourServicesHeading {
+    font-size: 1.8rem;
+    margin-bottom: 3rem;
+    width: auto;
+  }
+}

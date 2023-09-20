@@ -1,0 +1,12 @@
+/* Navbar */
+.navbar {
+  background-color: #f0efea;
+  transition: background-color 0.3s ease;
+}
+
+.logo {
+  width: 250px;
+  height: 100px;
+  
+}
+

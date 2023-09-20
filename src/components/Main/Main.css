@@ -1,0 +1,59 @@
+.main {
+  background-color: #f0efea;
+
+  padding: 50px;
+}
+
+.mainHeading {
+  font-size: 60px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+}
+
+.mainParagraph {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+@media (max-width: 767px) {
+  .main {
+    padding: 20px;
+  }
+
+  .mainHeading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+
+  .mainParagraph {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+
+  .mainPhoto {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main {
+    padding: 30px;
+  }
+
+  .mainHeading {
+    font-size: 48px;
+    margin-bottom: 25px;
+  }
+
+  .mainParagraph {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .mainPhoto {
+    display: block;
+    max-width: 100%;
+    margin-top: 20px;
+    height: auto;
+  }
+}
