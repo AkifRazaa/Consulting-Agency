@@ -26,7 +26,7 @@ function Navbar() {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto me-auto">
               <NavLink className="nav-link" to="/">
-                Home Sweet Home
+                Home
               </NavLink>
               <NavLink className="nav-link" to="/about">
                 About
