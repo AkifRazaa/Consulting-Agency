@@ -10,6 +10,7 @@ function Button({
   backgroundColor,
   hoverColor,
   marginRight = 0,
+  marginLeft = 0,
   onClick,
 }) {
   const isMobileView = window.innerWidth <= MOBILE_MAX_WIDTH;
@@ -23,6 +24,7 @@ function Button({
     padding: defaultPadding,
     transition: "background-color 0.3s ease",
     marginRight: `${marginRight}px`,
+    marginLeft: `${marginLeft}px`,
   };
 
   const handleMouseEnter = (e) => {

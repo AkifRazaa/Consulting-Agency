@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import navLogo from "../../assests/images/navLogo.png";
-import Button from "../Button";
 import "./Navbar.css";
 
 import { MDBPopover, MDBPopoverHeader, MDBPopoverBody } from "mdb-react-ui-kit";
@@ -49,21 +48,19 @@ function Navbar() {
 
             <MDBPopover
               btnChildren={
-                <Button
-                  text="Get Consulting"
-                  backgroundColor="#fad783"
-                  hoverColor="#eecb4c"
-                  onClick={handleGetConsulting}
-                />
+                <div onClick={handleGetConsulting} className="custom-button">
+                  Get Consulting
+                </div>
               }
+              dismiss
               style={{ borderRadius: "20px", padding: "0px" }}
             >
               <MDBPopoverHeader>
-                <strong> Consultation Booked</strong>
+                <strong>Consultation Booked</strong>
               </MDBPopoverHeader>
               <MDBPopoverBody>
-                Thank you for booking consultation with us. We will reach out to
-                you shortly.
+                Thank you for booking a consultation with us. We will reach out
+                to you shortly.
               </MDBPopoverBody>
             </MDBPopover>
           </div>

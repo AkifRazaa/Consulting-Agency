@@ -24,22 +24,19 @@ function Main() {
             <div className="mt-5">
               <MDBPopover
                 btnChildren={
-                  <Button
-                    text="Get Consulting"
-                    backgroundColor="#fad783"
-                    hoverColor="#eecb4c"
-                    onClick={handleGetConsulting}
-                  />
+                  <div onClick={handleGetConsulting} className="custom-button">
+                    Get Consulting
+                  </div>
                 }
                 dismiss
                 style={{ borderRadius: "20px", padding: "0px" }}
               >
                 <MDBPopoverHeader>
-                  <strong> Consultation Booked</strong>
+                  <strong>Consultation Booked</strong>
                 </MDBPopoverHeader>
                 <MDBPopoverBody>
-                  Thank you for booking consultation with us. We will reach out
-                  to you shortly.
+                  Thank you for booking a consultation with us. We will reach
+                  out to you shortly.
                 </MDBPopoverBody>
               </MDBPopover>
 
@@ -47,6 +44,7 @@ function Main() {
                 text="Learn More"
                 backgroundColor="#f0efea"
                 hoverColor="#ccc"
+                marginLeft={20}
               />
             </div>
           </div>
